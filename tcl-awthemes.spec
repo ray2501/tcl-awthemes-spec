@@ -28,7 +28,7 @@ winxpblue, breeze, arc, clearlooks.
 %build
 
 %install
-dir=%buildroot%tcl_noarchdir/awthemes-%version
+dir=%buildroot%tcl_noarchdir/awthemes%version
 mkdir -m755 -p $dir
 chmod -x demo*.tcl
 cp -a a*.tcl c*.tcl demo*.tcl pkgIndex.tcl $dir
