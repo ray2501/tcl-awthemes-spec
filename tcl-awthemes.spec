@@ -9,7 +9,7 @@ Version:        10.4.0
 Release:        0
 Summary:        Dark and light themes for Tk
 Url:            https://sourceforge.net/projects/tcl-awthemes/
-License:        BSD-3-Clause
+License:        Zlib
 Group:          Development/Libraries/Tcl
 BuildArch:      noarch
 Requires:       tcl >= 8.6
