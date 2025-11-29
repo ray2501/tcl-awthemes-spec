@@ -4,7 +4,7 @@ set arch "noarch"
 set base "awthemes-10.4.0"
 set fileurl "https://sourceforge.net/projects/tcl-awthemes/files/awthemes-10.4.0.zip"
 
-set var [list wget2 $fileurl -O $base.zip]
+set var [list curl -L $fileurl -o $base.zip]
 exec >@stdout 2>@stderr {*}$var
 
 if {[file exists build]} {
